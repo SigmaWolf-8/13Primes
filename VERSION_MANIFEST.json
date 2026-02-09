@@ -1,0 +1,28 @@
+{
+  "package": "@salvi/astro",
+  "version": "1.0.0",
+  "system": "V5.1 Unified 364° System",
+  "framework": "Salvi Framework",
+  "dependencies": {
+    "libternary": "^0.5.0"
+  },
+  "modules": {
+    "core/types": "1.0.0",
+    "core/constants": "1.0.0",
+    "core/conversions": "1.0.0",
+    "core/aspects": "1.0.0",
+    "core/ternary-astro": "1.0.0",
+    "calendar/thirteen-moon": "1.0.0",
+    "calendar/space-time-bridge": "1.0.0"
+  },
+  "mathematical_constants": {
+    "PRIME_CIRCLE": 364,
+    "PHASE_SIZE": 28,
+    "NUM_PHASES": 13,
+    "PHI_FRACTURE_DAY": 225,
+    "GOLDEN_RATIO": 1.6180339887
+  },
+  "copyright": "All Rights Reserved and Preserved | Capomastro Holdings Ltd 2026",
+  "repository": "https://github.com/SigmaWolf-8/13Primes",
+  "parent_framework": "https://github.com/SigmaWolf-8/Ternary"
+}
