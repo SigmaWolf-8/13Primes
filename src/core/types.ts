@@ -168,9 +168,13 @@ export interface ThirteenMoonDate {
   dayOfMoon: number;
   galacticSignature: string;
   harmonicTone: string;
-  arc: 'Pre-\u03C6' | 'Post-\u03C6' | '\u03C6-point';
+  arc: 'Pre-φ' | 'Post-φ' | 'φ-point';
   dayOfYear: number;
   isDayOutOfTime: boolean;
+  isHunabKu?: boolean;
+  weekday?: string;
+  totalCycles?: number;
+  formatted?: string;
 }
 
 export interface MoonData {
@@ -178,7 +182,7 @@ export interface MoonData {
   name: string;
   signature: string;
   tone: string;
-  arc: 'Pre-\u03C6' | 'Post-\u03C6';
+  arc: 'Pre-φ' | 'Post-φ';
 }
 
 export interface SpaceTimeBridge {
