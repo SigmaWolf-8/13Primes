@@ -1,0 +1,35 @@
+{
+  "name": "@salvi/astro",
+  "version": "1.0.0",
+  "description": "Salvi Framework Astrological Vertical - 13 Primes V5.1 Unified 364° System",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "tsc --noEmit"
+  },
+  "dependencies": {
+    "libternary": "^0.5.0"
+  },
+  "peerDependencies": {
+    "astronomy-engine": "^2.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SigmaWolf-8/13Primes"
+  },
+  "keywords": [
+    "astrology",
+    "ternary",
+    "salvi-framework",
+    "13-primes",
+    "364-system",
+    "bijective-ternary",
+    "galois-field",
+    "13-moon-calendar"
+  ],
+  "license": "SEE LICENSE IN LICENSE",
+  "author": "Capomastro Holdings Ltd"
+}
