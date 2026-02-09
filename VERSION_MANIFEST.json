@@ -1,6 +1,6 @@
 {
   "package": "@salvi/astro",
-  "version": "1.0.0",
+  "version": "0.2.1",
   "system": "V5.1 Unified 364° System",
   "framework": "Salvi Framework",
   "dependencies": {
@@ -24,5 +24,20 @@
   },
   "copyright": "All Rights Reserved and Preserved | Capomastro Holdings Ltd 2026",
   "repository": "https://github.com/SigmaWolf-8/13Primes",
-  "parent_framework": "https://github.com/SigmaWolf-8/Ternary"
+  "parent_framework": "https://github.com/SigmaWolf-8/Ternary",
+  "lastUpdated": "2026-02-09",
+  "changelog": [
+    {
+      "version": "0.2.1",
+      "date": "2026-02-09",
+      "changes": [
+        "Aligned 13-Moon calendar with canonical Salvi Framework epoch (April 1, not July 26)",
+        "Day Out of Time now correctly falls on November 11 (364/phi golden ratio point)",
+        "Added Hunab Ku Day handling for leap years",
+        "Added plasma weekday names (Dali, Seli, Gamma, Kali, Alpha, Limi, Silio)",
+        "Added 28,000-year cycle counting (Abri Blanchard bone reference)",
+        "Updated ThirteenMoonDate type with isHunabKu, weekday, totalCycles, formatted fields"
+      ]
+    }
+  ]
 }
